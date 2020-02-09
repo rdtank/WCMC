@@ -1,16 +1,12 @@
 # practical_5
+Login Page
 
-A new Flutter project.
+1. Successful Login message in TextView with Green background if
+Username & password is correct.
 
-## Getting Started
+2. Failure message in TextView with Red background if Username or
+password is incorrect.
 
-This project is a starting point for a Flutter application.
+3. Disable Login Button after three wrong log in attempts.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+4. Close application if the user selects Cancel Button.
