@@ -46,7 +46,7 @@ class _LoginState extends State<Login> {
       });
     } else {
       setState(() {
-        msg = 'Failed';
+        msg = 'Username or Password incorrect';
         tColor = Colors.redAccent;
         tVisible = true;
       });
