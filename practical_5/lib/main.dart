@@ -126,10 +126,15 @@ class _LoginState extends State<Login> {
                     }),
               ],
             ),
-            SizedBox(height: 35.0,),
+            SizedBox(
+              height: 35.0,
+            ),
             Visibility(
               visible: tVisible,
-              child: Text(msg,style: TextStyle(color: tColor,fontSize: 30.0),),
+              child: Text(
+                msg,
+                style: TextStyle(color: tColor, fontSize: 30.0),
+              ),
             )
           ],
         ),
