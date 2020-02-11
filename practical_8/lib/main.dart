@@ -24,7 +24,7 @@ class MyCarousel extends StatelessWidget {
       body: SingleChildScrollView(child: Column(
         children: <Widget>[
           Container(
-            height: 400.0,
+            height: 350.0,
             child: Carousel(
               images:[
               ExactAssetImage('assets/1.jpg'),
